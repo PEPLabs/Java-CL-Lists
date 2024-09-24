@@ -21,7 +21,7 @@ public class Lab {
      * not int? Generics can only contain Objects, and not primitives, so we Integer because it is a Wrapper class,
      * the Object form of a primitive.
      *
-     * A popular implementation of List is ArrayList. Look up how to instantiate one.
+     * A popular implementation of List is ArrayList. Look up how to instantiate one and ensure you include its relevant import statement.
      *
      * @return a List<Integer> object.
      */
