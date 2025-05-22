@@ -1,5 +1,5 @@
 
-import java.util.List;
+import java.util.*;
 
 /**
  * Lists are ordered collections. This means that we could access elements at a certain position of a list,
@@ -18,7 +18,7 @@ public class Lab {
      *
      * Second, the <Integer> portion represents a Generic. Generics allow an object to contain any object of a certain
      * type, so we can create a List that contains Integers, Strings, or even other Lists. Why do we use Integer and
-     * not int? Generics can only contain Objects, and not primitives, so we Integer because it is a Wrapper class,
+     * not int? Generics can only contain Objects, and not primitives, so we use Integer because it is a Wrapper class,
      * the Object form of a primitive.
      *
      * A popular implementation of List is ArrayList. Look up how to instantiate one and ensure you include its relevant import statement.
